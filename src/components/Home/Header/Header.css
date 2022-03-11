@@ -1,0 +1,21 @@
+.header-container {
+      height:850px;
+      width:100%;
+      position:relative;
+      background-image: url('../../../images/bg.png');
+      background-attachment: fixed;
+     
+  }
+  .header-container::after, .header-container::before {
+      height:700px;
+      content:' ';
+      position: absolute;
+      top: 0;
+      width: 31%;
+      right: 0;
+      background-color: #3A4256;
+      z-index: -50;
+  }
+
+  
+  
